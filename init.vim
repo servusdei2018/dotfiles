@@ -1,4 +1,5 @@
-" ~/.config/init.vim  
+" ~/.config/init.vim
+" ~/.config/nvim/init.vim
 
 " use Unicode
 set encoding=utf-8
