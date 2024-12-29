@@ -1,4 +1,3 @@
-" ~/.config/init.vim
 " ~/.config/nvim/init.vim
 
 " use Unicode
@@ -10,7 +9,7 @@ set nobackup
 " don't create `filename~` backups
 set nobackup
 
-" line numbers and distances 
+" line numbers and distances
 set number
 
 " Tab key enters 2 spaces
@@ -29,10 +28,20 @@ call plug#begin()
   Plug 'rebelot/kanagawa.nvim'
   " File manager
   Plug 'preservim/nerdtree'
+  " Indentation guides
+  Plug 'lukas-reineke/indent-blankline.nvim'
 call plug#end()
 
 " Airline theme
 let g:airline_theme='deus'
+
+" Indentation guides
+lua << EOF
+  require("ibl").setup({
+    scope = enabled,
+    indent = { char = "▏" },
+  })
+EOF
 
 " Colorscheme
 colorscheme kanagawa
