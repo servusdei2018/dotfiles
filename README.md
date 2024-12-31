@@ -1,6 +1,6 @@
 # dotfiles
 
-My personal dotfiles. Assumes default shell is `bash`.
+My personal dotfiles. Assumes default shell is `bash` on Linux and `zshrc` on macOS.
 
 ## Dependencies
 
