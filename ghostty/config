@@ -1,6 +1,7 @@
 # $XDG_CONFIG_HOME/ghostty/config
 
 theme = 3024 Night
+font-family = FiraMono Nerd Font Mono
 
 # Initial window height
 window-width = 124
