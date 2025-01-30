@@ -15,14 +15,23 @@
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+
 [user]
 	signingkey = REDACTED
 	email = nate@bracy.dev
 	name = Nathanael Bracy
+
 [commit]
 	gpgsign = true
+
 [init]
 	defaultBranch = main
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
