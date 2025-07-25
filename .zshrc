@@ -24,4 +24,11 @@ export PATH="$HOME/go/bin:$PATH"
 # deno
 . "/Users/bracynj/.deno/env"
 
+# bun completions
+[ -s "/Users/bracynj/.bun/_bun" ] && source "/Users/bracynj/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
 fastfetch

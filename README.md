@@ -4,6 +4,7 @@ My personal dotfiles. Assumes default shell is `bash` on Linux and `zshrc` on ma
 
 ## Dependencies
 
+- `bun` Bun
 - `deno` Deno
 - `fastfetch` Fastfetch
 - `gh` GitHub CLI
