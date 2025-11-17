@@ -31,4 +31,7 @@ export PATH="$HOME/go/bin:$PATH"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# oh-my-posh
+eval "$(oh-my-posh init zsh)"
+
 fastfetch
