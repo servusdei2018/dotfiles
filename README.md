@@ -13,4 +13,9 @@ My personal dotfiles. Assumes default shell is `bash` on Linux and `zshrc` on ma
 - `helix` Helix editor
 - `oh-my-posh` prompt
 - `nvm` Node version manager
+- `zed` editor
 - `zsh` ZShell
+
+## Fonts
+
+- [`iosevka`](https://www.nerdfonts.com/font-downloads)
