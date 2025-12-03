@@ -34,4 +34,10 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 # oh-my-posh
 eval "$(oh-my-posh init zsh)"
 
+# antigravity
+export PATH="/Users/bracynj/.antigravity/antigravity/bin:$PATH"
+
+# tailscale
+alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+
 fastfetch
