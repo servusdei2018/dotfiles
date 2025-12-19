@@ -51,9 +51,4 @@
   "edit_predictions": {
     "mode": "eager",
   },
-  "languages": {
-    "Python": {
-      "language_servers": ["pyrefly", "!basedpyright", "..."], // https://github.com/zed-extensions/pyrefly
-    },
-  },
 }
