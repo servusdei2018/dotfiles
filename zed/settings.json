@@ -9,46 +9,51 @@
 {
   "terminal": {
     "font_weight": 200.0,
-    "font_family": "Iosevka Nerd Font Mono"
+    "font_family": "Iosevka Nerd Font Mono",
   },
   "confirm_quit": true,
   "ssh_connections": [],
   "features": {
-    "edit_prediction_provider": "copilot"
+    "edit_prediction_provider": "copilot",
   },
   "agent": {
-    "default_profile": "write",
+    "default_profile": "ask",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4"
+      "model": "claude-haiku-4.5",
     },
     "thread_summary_model": {
       "provider": "copilot_chat",
-      "model": "gpt-5-mini"
-    }
+      "model": "gpt-5-mini",
+    },
   },
   "telemetry": {
     "metrics": false,
-    "diagnostics": false
+    "diagnostics": false,
   },
   "ui_font_size": 15,
   "buffer_font_size": 15,
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Mosel"
+    "dark": "Mosel",
   },
   "restore_on_startup": "none",
   "soft_wrap": "editor_width",
   "current_line_highlight": "gutter",
   "tabs": {
-    "file_icons": true
+    "file_icons": true,
   },
   "indent_guides": {
     "enabled": true,
-    "coloring": "indent_aware"
+    "coloring": "indent_aware",
   },
   "edit_predictions": {
-    "mode": "eager"
-  }
+    "mode": "eager",
+  },
+  "languages": {
+    "Python": {
+      "language_servers": ["ty", "!basedpyright", "..."],
+    },
+  },
 }
