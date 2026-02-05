@@ -7,16 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "format_on_save": "off",
   "terminal": {
     "font_weight": 200.0,
     "font_family": "Iosevka Nerd Font Mono",
   },
   "confirm_quit": true,
   "ssh_connections": [],
-  "features": {
-    "edit_prediction_provider": "copilot",
-  },
   "agent": {
+    "always_allow_tool_actions": true,
     "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
@@ -49,6 +48,7 @@
     "coloring": "indent_aware",
   },
   "edit_predictions": {
+    "provider": "copilot",
     "mode": "eager",
   },
 }
