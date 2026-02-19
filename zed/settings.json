@@ -15,7 +15,9 @@
   "confirm_quit": true,
   "ssh_connections": [],
   "agent": {
-    "always_allow_tool_actions": true,
+    "tool_permissions": {
+      "default": "allow"
+    },
     "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
@@ -37,7 +39,7 @@
     "light": "One Light",
     "dark": "Mosel",
   },
-  "restore_on_startup": "none",
+  "restore_on_startup": "empty_tab",
   "soft_wrap": "editor_width",
   "current_line_highlight": "gutter",
   "tabs": {
